@@ -1,46 +1,57 @@
 {
-  "name": "personal-themed-site",
-  "version": "0.0.0",
-  "author": "Jacob Bolda <me@jacobbolda.com>",
-  "license": "MIT",
-  "private": true,
-  "browserslist": {
-    "ie": "9"
-  },
-  "scripts": {
-    "build": "gatsby build",
-    "build:hard": "gatsby clean && gatsby build",
-    "develop": "gatsby develop",
-    "dev:hard": "gatsby clean && gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "tauri:source": "node ../../../../tooling/cli.js/bin/tauri",
-    "tauri:dev": "yarn tauri:source dev",
-    "tauri:build": "yarn tauri:source build",
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "dependencies": {
-    "@emotion/core": "11.0.0",
-    "@jbolda/gatsby-theme-articles": "0.4.6",
-    "@jbolda/gatsby-theme-homepage": "0.3.3",
-    "@jbolda/gatsby-theme-layout": "0.3.5",
-    "@mdx-js/mdx": "3.0.1",
-    "@mdx-js/react": "3.0.1",
-    "gatsby": "5.13.4",
-    "gatsby-image": "3.11.0",
-    "gatsby-plugin-mdx": "5.13.1",
-    "gatsby-plugin-netlify": "5.1.1",
-    "gatsby-plugin-react-helmet": "6.13.1",
-    "gatsby-plugin-sharp": "5.13.1",
-    "gatsby-plugin-theme-ui": "0.16.2",
-    "gatsby-source-filesystem": "5.13.1",
-    "gatsby-transformer-sharp": "5.13.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-helmet": "6.1.0",
-    "theme-ui": "0.16.2"
-  },
-  "devDependencies": {
-    "@babel/plugin-proposal-optional-chaining": "7.21.0",
-    "babel-preset-gatsby": "3.13.2"
-  }
+	"name": "personal-themed-site",
+	"version": "0.0.1",
+	"private": false,
+	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
+	"bugs": {
+		"url": "https://github.com/CodeEditorLand/Foundation/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/Foundation.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Land",
+		"email": "Land@Playform.Cloud",
+		"url": "HTTPS://Land.Playform.Cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"build": "gatsby build",
+		"build:hard": "gatsby clean && gatsby build",
+		"dev:hard": "gatsby clean && gatsby develop",
+		"develop": "gatsby develop",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
+		"tauri:build": "yarn tauri:source build",
+		"tauri:dev": "yarn tauri:source dev",
+		"tauri:source": "node ../../../../tooling/cli.js/bin/tauri"
+	},
+	"browserslist": {
+		"ie": "9"
+	},
+	"dependencies": {
+		"@emotion/core": "11.0.0",
+		"@jbolda/gatsby-theme-articles": "0.4.6",
+		"@jbolda/gatsby-theme-homepage": "0.3.3",
+		"@jbolda/gatsby-theme-layout": "0.3.5",
+		"@mdx-js/mdx": "3.0.1",
+		"gatsby": "5.13.4",
+		"gatsby-image": "3.11.0",
+		"gatsby-plugin-mdx": "5.13.1",
+		"gatsby-plugin-netlify": "5.1.1",
+		"gatsby-plugin-sharp": "5.13.1",
+		"gatsby-plugin-theme-ui": "0.16.2",
+		"gatsby-source-filesystem": "5.13.1",
+		"gatsby-transformer-sharp": "5.13.1",
+		"theme-ui": "0.16.2"
+	},
+	"devDependencies": {
+		"@playform/build": "0.0.5",
+		"@playform/document": "0.0.6"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }

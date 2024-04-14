@@ -1,9 +1,35 @@
 {
-  "name": "tauri-examples",
-  "description": "Examples of Tauri in use.",
-  "license": "MIT",
-  "private": true,
-  "dependencies": {
-    "tauri": "link:../../tooling/cli.js"
-  }
+	"name": "tauri-examples",
+	"version": "0.0.1",
+	"private": false,
+	"description": "Examples of Tauri in use.",
+	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
+	"bugs": {
+		"url": "https://github.com/CodeEditorLand/Foundation/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/Foundation.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Land",
+		"email": "Land@Playform.Cloud",
+		"url": "HTTPS://Land.Playform.Cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
+	},
+	"dependencies": {
+		"tauri": "link:../../tooling/cli.js"
+	},
+	"devDependencies": {
+		"@playform/build": "0.0.5",
+		"@playform/document": "0.0.6"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }

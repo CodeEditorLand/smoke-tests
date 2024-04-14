@@ -1,22 +1,42 @@
 {
-  "name": "nuxt-app",
-  "version": "1.0.0",
-  "description": "My good Nuxt.js project",
-  "author": "Lucas Nogueira",
-  "private": true,
-  "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "tauri:source": "node ../../../../tooling/cli.js/bin/tauri",
-    "tauri:dev": "yarn tauri:source dev",
-    "tauri:build": "yarn tauri:source build"
-  },
-  "dependencies": {
-    "nuxt": "3.11.2"
-  },
-  "devDependencies": {
-    "@tauri-apps/tauri-webpack": "0.2.0"
-  }
+	"name": "nuxt-app",
+	"version": "0.0.1",
+	"private": false,
+	"description": "My good Nuxt.js project",
+	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
+	"bugs": {
+		"url": "https://github.com/CodeEditorLand/Foundation/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/Foundation.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Land",
+		"email": "Land@Playform.Cloud",
+		"url": "HTTPS://Land.Playform.Cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"build": "nuxt build",
+		"dev": "nuxt",
+		"generate": "nuxt generate",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
+		"start": "nuxt start",
+		"tauri:build": "yarn tauri:source build",
+		"tauri:dev": "yarn tauri:source dev",
+		"tauri:source": "node ../../../../tooling/cli.js/bin/tauri"
+	},
+	"dependencies": {
+		"nuxt": "3.11.2"
+	},
+	"devDependencies": {
+		"@playform/build": "0.0.5",
+		"@playform/document": "0.0.6"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }

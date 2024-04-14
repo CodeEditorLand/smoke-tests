@@ -1,44 +1,42 @@
 {
-  "name": "vue-cli-app",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "tauri:build": "vue-cli-service tauri:build",
-    "tauri:dev": "vue-cli-service tauri:serve"
-  },
-  "dependencies": {
-    "core-js": "3.36.1",
-    "vue": "3.4.21"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "5.0.8",
-    "@vue/cli-plugin-eslint": "5.0.8",
-    "@vue/cli-service": "5.0.8",
-    "@babel/eslint-parser": "7.24.1",
-    "eslint": "9.0.0",
-    "eslint-plugin-vue": "9.24.1",
-    "vue-cli-plugin-tauri": "1.0.0",
-    "vue-template-compiler": "2.7.16"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
-  ]
+	"name": "vue-cli-app",
+	"version": "0.0.1",
+	"private": false,
+	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
+	"bugs": {
+		"url": "https://github.com/CodeEditorLand/Foundation/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/Foundation.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Land",
+		"email": "Land@Playform.Cloud",
+		"url": "HTTPS://Land.Playform.Cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"build": "vue-cli-service build",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
+		"serve": "vue-cli-service serve",
+		"tauri:build": "vue-cli-service tauri:build",
+		"tauri:dev": "vue-cli-service tauri:serve"
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions"
+	],
+	"dependencies": {
+		"core-js": "3.36.1"
+	},
+	"devDependencies": {
+		"@playform/build": "0.0.5",
+		"@playform/document": "0.0.6"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
