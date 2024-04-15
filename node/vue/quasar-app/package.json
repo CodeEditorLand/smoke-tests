@@ -1,41 +1,23 @@
 {
-	"author": {
-		"email": "Land@Playform.Cloud",
-		"name": "Land",
-		"url": "HTTPS://Land.Playform.Cloud"
-	},
-	"browserslist": [
-		"last 1 version, not dead, ie >= 11"
-	],
+	"name": "quasar-app",
+	"version": "0.0.1",
+	"private": false,
+	"description": "A Quasar Framework app",
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/SmokeTests#readme",
 	"bugs": {
 		"url": "HTTPS://GitHub.Com/CodeEditorLand/SmokeTests/issues"
-	},
-	"dependencies": {
-		"@quasar/extras": "1.16.11",
-		"@tauri-apps/api": "1.5.3",
-		"core-js": "3.36.1",
-		"quasar": "2.15.2"
-	},
-	"description": "A Quasar Framework app",
-	"devDependencies": {
-		"@playform/build": "0.0.7",
-		"@playform/document": "0.0.6",
-		"@quasar/app": "3.3.3",
-		"execa": "8.0.1",
-		"pkg": "5.8.1"
-	},
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/SmokeTests#readme",
-	"license": "SEE LICENSE IN LICENSE",
-	"name": "quasar-app",
-	"private": false,
-	"productName": "Quasar App",
-	"publishConfig": {
-		"access": "public"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+HTTPS://github.com/CodeEditorLand/SmokeTests.git"
 	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Land",
+		"email": "Land@Playform.Cloud",
+		"url": "HTTPS://Land.Playform.Cloud"
+	},
+	"type": "module",
 	"scripts": {
 		"Document": "Document 'Source/**/*.ts'",
 		"build": "quasar build && node ./scripts/compile-node.js",
@@ -44,6 +26,24 @@
 		"tauri:dev": "yarn tauri:source dev",
 		"tauri:source": "node ../../../../tooling/cli.js/bin/tauri"
 	},
-	"type": "module",
-	"version": "0.0.1"
+	"browserslist": [
+		"last 1 version, not dead, ie >= 11"
+	],
+	"dependencies": {
+		"@quasar/extras": "1.16.11",
+		"@tauri-apps/api": "1.5.3",
+		"core-js": "3.36.1",
+		"quasar": "2.15.2"
+	},
+	"devDependencies": {
+		"@playform/build": "0.0.7",
+		"@playform/document": "0.0.6",
+		"@quasar/app": "3.3.3",
+		"execa": "8.0.1",
+		"pkg": "5.8.1"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"productName": "Quasar App"
 }
