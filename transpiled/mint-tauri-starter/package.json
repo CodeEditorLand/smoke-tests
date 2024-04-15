@@ -29,8 +29,8 @@
 	"devDependencies": {
 		"@playform/build": "0.0.5",
 		"@playform/document": "0.0.6",
-		"npm-run-all": "^4.1.5",
-		"tauri": "^0.4.5"
+		"npm-run-all": "4.1.5",
+		"tauri": "0.4.5"
 	},
 	"publishConfig": {
 		"access": "public"
