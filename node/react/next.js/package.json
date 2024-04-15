@@ -31,7 +31,7 @@
 		"next": "14.2.1"
 	},
 	"devDependencies": {
-		"@playform/build": "0.0.5",
+		"@playform/build": "0.0.7",
 		"@playform/document": "0.0.6"
 	},
 	"publishConfig": {

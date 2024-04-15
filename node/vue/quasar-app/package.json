@@ -36,7 +36,7 @@
 		"quasar": "2.15.2"
 	},
 	"devDependencies": {
-		"@playform/build": "0.0.5",
+		"@playform/build": "0.0.7",
 		"@playform/document": "0.0.6",
 		"@quasar/app": "3.3.3",
 		"execa": "8.0.1",
