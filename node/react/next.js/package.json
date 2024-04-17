@@ -1,22 +1,11 @@
 {
+	"dependencies": {
+		"next": "14.2.1"
+	},
+	"devDependencies": {
+		"@playform/build": "0.0.7"
+	},
 	"name": "next.js",
-	"version": "0.0.1",
-	"private": false,
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/SmokeTests#readme",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/SmokeTests/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/SmokeTests.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "Land",
-		"email": "Land@Playform.Cloud",
-		"url": "HTTPS://Land.Playform.Cloud"
-	},
-	"type": "module",
 	"scripts": {
 		"Document": "Document 'Source/**/*.ts'",
 		"build": "next build && next export",
@@ -26,15 +15,5 @@
 		"tauri:build": "yarn tauri:source build",
 		"tauri:dev": "yarn tauri:source dev",
 		"tauri:source": "node ../../../../tooling/cli.js/bin/tauri"
-	},
-	"dependencies": {
-		"next": "14.2.1"
-	},
-	"devDependencies": {
-		"@playform/build": "0.0.7",
-		"@playform/document": "0.0.6"
-	},
-	"publishConfig": {
-		"access": "public"
 	}
 }
