@@ -1,4 +1,31 @@
 {
+	"name": "quasar-app",
+	"version": "0.0.1",
+	"private": false,
+	"description": "A Quasar Framework app",
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/SmokeTests#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/SmokeTests/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/SmokeTests.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Land",
+		"email": "Land@Playform.Cloud",
+		"url": "HTTPS://Land.Playform.Cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"build": "quasar build && node ./scripts/compile-node.js",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
+		"tauri:build": "yarn tauri:source build",
+		"tauri:dev": "yarn tauri:source dev",
+		"tauri:source": "node ../../../../tooling/cli.js/bin/tauri"
+	},
 	"browserslist": [
 		"last 1 version, not dead, ie >= 11"
 	],
@@ -8,21 +35,15 @@
 		"core-js": "3.36.1",
 		"quasar": "2.15.2"
 	},
-	"description": "A Quasar Framework app",
 	"devDependencies": {
 		"@playform/build": "0.0.7",
+		"@playform/document": "0.0.6",
 		"@quasar/app": "3.3.3",
 		"execa": "8.0.1",
 		"pkg": "5.8.1"
 	},
-	"name": "quasar-app",
-	"productName": "Quasar App",
-	"scripts": {
-		"Document": "Document 'Source/**/*.ts'",
-		"build": "quasar build && node ./scripts/compile-node.js",
-		"prepublishOnly": "Build 'Source/**/*.ts'",
-		"tauri:build": "yarn tauri:source build",
-		"tauri:dev": "yarn tauri:source dev",
-		"tauri:source": "node ../../../../tooling/cli.js/bin/tauri"
-	}
+	"publishConfig": {
+		"access": "public"
+	},
+	"productName": "Quasar App"
 }

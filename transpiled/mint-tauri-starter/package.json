@@ -1,9 +1,21 @@
 {
-	"devDependencies": {
-		"@playform/build": "0.0.7",
-		"npm-run-all": "4.1.5",
-		"tauri": "0.15.0"
+	"version": "0.0.1",
+	"private": false,
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/SmokeTests#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/SmokeTests/issues"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/SmokeTests.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Land",
+		"email": "Land@Playform.Cloud",
+		"url": "HTTPS://Land.Playform.Cloud"
+	},
+	"type": "module",
 	"scripts": {
 		"Document": "Document 'Source/**/*.ts'",
 		"build": "run-s mint:build tauri:build",
@@ -13,5 +25,14 @@
 		"prepublishOnly": "Build 'Source/**/*.ts'",
 		"tauri:build": "tauri build",
 		"tauri:dev": "tauri dev"
+	},
+	"devDependencies": {
+		"@playform/build": "0.0.7",
+		"@playform/document": "0.0.6",
+		"npm-run-all": "4.1.5",
+		"tauri": "0.15.0"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }

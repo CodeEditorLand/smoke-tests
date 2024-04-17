@@ -1,0 +1,151 @@
+name: NPM
+
+concurrency:
+    group: NPM-${{ github.workflow }}-${{ github.ref }}
+    cancel-in-progress: true
+
+permissions:
+    security-events: write
+    contents: write
+    pull-requests: write
+
+on:
+    workflow_dispatch:
+    release:
+        types: [created]
+    workflow_call:
+
+jobs:
+    Publish:
+        runs-on: ubuntu-latest
+
+        permissions:
+            contents: read
+            id-token: write
+
+        steps:
+            - uses: actions/checkout@v4.1.2
+
+            - uses: actions/setup-node@v4.0.2
+              with:
+                  node-version: "18"
+                  registry-url: "https://registry.npmjs.org"
+
+            - run: npm install -g npm
+
+            - name: Publish ./node/react/create-react-app
+              continue-on-error: true
+              working-directory: ./node/react/create-react-app
+              run: |
+                  npm install --legacy-peer-deps
+                  npm publish --legacy-peer-deps --provenance
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+            - name: Publish ./node/react/gatsby-themed-site
+              continue-on-error: true
+              working-directory: ./node/react/gatsby-themed-site
+              run: |
+                  npm install --legacy-peer-deps
+                  npm publish --legacy-peer-deps --provenance
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+            - name: Publish ./node/react/next.js
+              continue-on-error: true
+              working-directory: ./node/react/next.js
+              run: |
+                  npm install --legacy-peer-deps
+                  npm publish --legacy-peer-deps --provenance
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+            - name: Publish ./node/svelte/svelte-app
+              continue-on-error: true
+              working-directory: ./node/svelte/svelte-app
+              run: |
+                  npm install --legacy-peer-deps
+                  npm publish --legacy-peer-deps --provenance
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+            - name: Publish ./node/vanillajs/monolith
+              continue-on-error: true
+              working-directory: ./node/vanillajs/monolith
+              run: |
+                  npm install --legacy-peer-deps
+                  npm publish --legacy-peer-deps --provenance
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+            - name: Publish ./node/vue/nuxt-app
+              continue-on-error: true
+              working-directory: ./node/vue/nuxt-app
+              run: |
+                  npm install --legacy-peer-deps
+                  npm publish --legacy-peer-deps --provenance
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+            - name: Publish ./node/vue/quasar-app
+              continue-on-error: true
+              working-directory: ./node/vue/quasar-app
+              run: |
+                  npm install --legacy-peer-deps
+                  npm publish --legacy-peer-deps --provenance
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+            - name: Publish ./node/vue/vue-cli-app
+              continue-on-error: true
+              working-directory: ./node/vue/vue-cli-app
+              run: |
+                  npm install --legacy-peer-deps
+                  npm publish --legacy-peer-deps --provenance
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+            - name: Publish .
+              continue-on-error: true
+              working-directory: .
+              run: |
+                  npm install --legacy-peer-deps
+                  npm publish --legacy-peer-deps --provenance
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+            - name: Publish ./rust/yew/todomvc
+              continue-on-error: true
+              working-directory: ./rust/yew/todomvc
+              run: |
+                  npm install --legacy-peer-deps
+                  npm publish --legacy-peer-deps --provenance
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+            - name: Publish ./transpiled/flutter
+              continue-on-error: true
+              working-directory: ./transpiled/flutter
+              run: |
+                  npm install --legacy-peer-deps
+                  npm publish --legacy-peer-deps --provenance
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+            - name: Publish ./transpiled/mint-tauri-starter
+              continue-on-error: true
+              working-directory: ./transpiled/mint-tauri-starter
+              run: |
+                  npm install --legacy-peer-deps
+                  npm publish --legacy-peer-deps --provenance
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+            - name: Publish ./transpiled/reason-react
+              continue-on-error: true
+              working-directory: ./transpiled/reason-react
+              run: |
+                  npm install --legacy-peer-deps
+                  npm publish --legacy-peer-deps --provenance
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
