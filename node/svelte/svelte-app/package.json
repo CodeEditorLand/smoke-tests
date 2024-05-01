@@ -1,33 +1,25 @@
 {
-	"author": {
-		"email": "Land@PlayForm.Cloud",
-		"name": "🌆 — Land —",
-		"url": "HTTPS://Land.PlayForm.Cloud"
-	},
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/SmokeTests/issues"
-	},
-	"dependencies": {},
-	"devDependencies": {
-		"@playform/build": "0.0.7",
-		"@playform/document": "0.0.6",
-		"core-js": "3.37.0",
-		"sirv-cli": "2.0.2"
-	},
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/SmokeTests#readme",
+	"name": "svelte-app",
+	"version": "0.0.1",
+	"private": false,
 	"keywords": [
 		"land"
 	],
-	"license": "SEE LICENSE IN LICENSE",
-	"name": "svelte-app",
-	"private": false,
-	"publishConfig": {
-		"access": "public"
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/SmokeTests#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/SmokeTests/issues"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+HTTPS://github.com/CodeEditorLand/SmokeTests.git"
 	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "🌆 — Land —",
+		"email": "Land@PlayForm.Cloud",
+		"url": "HTTPS://Land.PlayForm.Cloud"
+	},
+	"type": "module",
 	"scripts": {
 		"Document": "Document 'Source/**/*.ts'",
 		"build": "rollup -c",
@@ -38,6 +30,14 @@
 		"tauri:dev": "yarn tauri:source dev",
 		"tauri:source": "node ../../../../tooling/cli.js/bin/tauri"
 	},
-	"type": "module",
-	"version": "0.0.1"
+	"dependencies": {},
+	"devDependencies": {
+		"@playform/build": "0.0.7",
+		"@playform/document": "0.0.6",
+		"core-js": "3.37.0",
+		"sirv-cli": "2.0.2"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }

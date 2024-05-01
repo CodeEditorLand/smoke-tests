@@ -1,34 +1,26 @@
 {
-	"author": {
-		"email": "Land@PlayForm.Cloud",
-		"name": "🌆 — Land —",
-		"url": "HTTPS://Land.PlayForm.Cloud"
-	},
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/SmokeTests/issues"
-	},
-	"dependencies": {
-		"nuxt": "3.11.2"
-	},
+	"name": "nuxt-app",
+	"version": "0.0.1",
+	"private": false,
 	"description": "My good Nuxt.js project",
-	"devDependencies": {
-		"@playform/build": "0.0.7",
-		"@playform/document": "0.0.6"
-	},
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/SmokeTests#readme",
 	"keywords": [
 		"land"
 	],
-	"license": "SEE LICENSE IN LICENSE",
-	"name": "nuxt-app",
-	"private": false,
-	"publishConfig": {
-		"access": "public"
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/SmokeTests#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/SmokeTests/issues"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+HTTPS://github.com/CodeEditorLand/SmokeTests.git"
 	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "🌆 — Land —",
+		"email": "Land@PlayForm.Cloud",
+		"url": "HTTPS://Land.PlayForm.Cloud"
+	},
+	"type": "module",
 	"scripts": {
 		"Document": "Document 'Source/**/*.ts'",
 		"build": "nuxt build",
@@ -40,6 +32,14 @@
 		"tauri:dev": "yarn tauri:source dev",
 		"tauri:source": "node ../../../../tooling/cli.js/bin/tauri"
 	},
-	"type": "module",
-	"version": "0.0.1"
+	"dependencies": {
+		"nuxt": "3.11.2"
+	},
+	"devDependencies": {
+		"@playform/build": "0.0.7",
+		"@playform/document": "0.0.6"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }

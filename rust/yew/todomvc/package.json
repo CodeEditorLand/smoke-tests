@@ -1,31 +1,26 @@
 {
-	"author": {
-		"email": "Land@PlayForm.Cloud",
-		"name": "🌆 — Land —",
-		"url": "HTTPS://Land.PlayForm.Cloud"
-	},
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/SmokeTests/issues"
-	},
-	"devDependencies": {
-		"@playform/build": "0.0.7",
-		"@playform/document": "0.0.6"
-	},
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/SmokeTests#readme",
+	"name": "tauri-yew",
+	"version": "0.0.1",
+	"private": false,
 	"keywords": [
 		"land"
 	],
-	"license": "SEE LICENSE IN LICENSE",
-	"main": "index.js",
-	"name": "tauri-yew",
-	"private": false,
-	"publishConfig": {
-		"access": "public"
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/SmokeTests#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/SmokeTests/issues"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+HTTPS://github.com/CodeEditorLand/SmokeTests.git"
 	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "🌆 — Land —",
+		"email": "Land@PlayForm.Cloud",
+		"url": "HTTPS://Land.PlayForm.Cloud"
+	},
+	"type": "module",
+	"main": "index.js",
 	"scripts": {
 		"Document": "Document 'Source/**/*.ts'",
 		"prepublishOnly": "Build 'Source/**/*.ts'",
@@ -33,6 +28,11 @@
 		"tauri:dev": "yarn tauri:source dev",
 		"tauri:source": "node ../../../../tooling/cli.js/bin/tauri"
 	},
-	"type": "module",
-	"version": "0.0.1"
+	"devDependencies": {
+		"@playform/build": "0.0.7",
+		"@playform/document": "0.0.6"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
