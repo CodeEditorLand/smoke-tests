@@ -1,6 +1,14 @@
 {
+	"author": {
+		"email": "Land@PlayForm.Cloud",
+		"name": "🌆 — Land —",
+		"url": "HTTPS://Land.PlayForm.Cloud"
+	},
 	"browserslist": {
 		"ie": "9"
+	},
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/SmokeTests/issues"
 	},
 	"dependencies": {
 		"@emotion/core": "11.0.0",
@@ -18,15 +26,35 @@
 		"gatsby-transformer-sharp": "5.13.1",
 		"theme-ui": "0.16.2"
 	},
-	"devDependencies": {},
+	"devDependencies": {
+		"@playform/build": "0.0.7",
+		"@playform/document": "0.0.6"
+	},
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/SmokeTests#readme",
+	"keywords": [
+		"land"
+	],
+	"license": "SEE LICENSE IN LICENSE",
 	"name": "personal-themed-site",
+	"private": false,
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/SmokeTests.git"
+	},
 	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
 		"build": "gatsby build",
 		"build:hard": "gatsby clean && gatsby build",
 		"dev:hard": "gatsby clean && gatsby develop",
 		"develop": "gatsby develop",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
 		"tauri:build": "yarn tauri:source build",
 		"tauri:dev": "yarn tauri:source dev",
 		"tauri:source": "node ../../../../tooling/cli.js/bin/tauri"
-	}
+	},
+	"type": "module",
+	"version": "0.0.1"
 }
