@@ -36,7 +36,7 @@
 		"@quasar/extras": "1.16.11",
 		"@tauri-apps/api": "1.5.4",
 		"core-js": "3.37.0",
-		"quasar": "2.15.4"
+		"quasar": "2.16.0"
 	},
 	"devDependencies": {
 		"@playform/build": "0.0.7",
