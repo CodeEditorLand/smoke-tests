@@ -1,0 +1,27 @@
+workspace = { }
+
+[package]
+name = "app"
+version = "0.1.0"
+description = "A Tauri App"
+author = [ "you" ]
+license = ""
+repository = ""
+default-run = "app"
+edition = "2018"
+
+[dependencies]
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+tauri = { path = "../../../../../core/tauri", features = [ "all-api" ] }
+
+[build-dependencies]
+tauri-build = { path = "../../../../../core/tauri-build" }
+
+[features]
+default = [ "custom-protocol" ]
+custom-protocol = [ "tauri/custom-protocol" ]
+
+[[bin]]
+name = "app"
+path = "src/main.rs"

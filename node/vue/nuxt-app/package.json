@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "version": "1.0.0",
+  "description": "My good Nuxt.js project",
+  "author": "Lucas Nogueira",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "tauri:source": "node ../../../../tooling/cli.js/bin/tauri",
+    "tauri:dev": "yarn tauri:source dev",
+    "tauri:build": "yarn tauri:source build"
+  },
+  "dependencies": {
+    "nuxt": "3.11.2"
+  },
+  "devDependencies": {
+    "@tauri-apps/tauri-webpack": "0.2.0"
+  }
+}
