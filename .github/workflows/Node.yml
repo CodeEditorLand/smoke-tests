@@ -61,7 +61,7 @@ jobs:
 
             - uses: pnpm/action-setup@v4.0.0
               with:
-                  version: 8.15.5
+                  version: 9.3.0
                   run_install: |
                       - recursive: true
                         args: [
@@ -91,6 +91,9 @@ jobs:
                   name: .-node-react-create-react-app-Node-${{ matrix.node-version }}-Target
                   path: ./node/react/create-react-app/Target
 
+            - run: pnpm run test
+              working-directory: ./node/react/create-react-app
+
             - uses: actions/setup-node@v4.0.2
               with:
                   node-version: ${{ matrix.node-version }}
@@ -107,6 +110,9 @@ jobs:
               with:
                   name: .-node-react-gatsby-themed-site-Node-${{ matrix.node-version }}-Target
                   path: ./node/react/gatsby-themed-site/Target
+
+            - run: pnpm run test
+              working-directory: ./node/react/gatsby-themed-site
 
             - uses: actions/setup-node@v4.0.2
               with:
@@ -142,6 +148,9 @@ jobs:
                   name: .-node-svelte-svelte-app-Node-${{ matrix.node-version }}-Target
                   path: ./node/svelte/svelte-app/Target
 
+            - run: pnpm run test
+              working-directory: ./node/svelte/svelte-app
+
             - uses: actions/setup-node@v4.0.2
               with:
                   node-version: ${{ matrix.node-version }}
@@ -149,6 +158,9 @@ jobs:
                   cache-dependency-path: ./node/vanillajs/monolith/pnpm-lock.yaml
 
             - run: pnpm install
+              working-directory: ./node/vanillajs/monolith
+
+            - run: pnpm run test
               working-directory: ./node/vanillajs/monolith
 
             - run: pnpm run build
@@ -183,6 +195,9 @@ jobs:
                   cache-dependency-path: ./node/vue/quasar-app/pnpm-lock.yaml
 
             - run: pnpm install
+              working-directory: ./node/vue/quasar-app
+
+            - run: pnpm run test
               working-directory: ./node/vue/quasar-app
 
             - run: pnpm run build
@@ -226,6 +241,9 @@ jobs:
                   cache-dependency-path: ./transpiled/flutter/pnpm-lock.yaml
 
             - run: pnpm install
+              working-directory: ./transpiled/flutter
+
+            - run: pnpm run test
               working-directory: ./transpiled/flutter
 
             - uses: actions/setup-node@v4.0.2
