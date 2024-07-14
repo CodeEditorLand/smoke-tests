@@ -75,7 +75,7 @@ jobs:
                           --unsafe-perm=true
                         ]
 
-            - uses: actions/setup-node@v4.0.2
+            - uses: actions/setup-node@v4.0.3
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -92,7 +92,7 @@ jobs:
                   name: .-node-react-create-react-app-Node-${{ matrix.node-version }}-Target
                   path: ./node/react/create-react-app/Target
 
-            - uses: actions/setup-node@v4.0.2
+            - uses: actions/setup-node@v4.0.3
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -109,7 +109,7 @@ jobs:
                   name: .-node-react-gatsby-themed-site-Node-${{ matrix.node-version }}-Target
                   path: ./node/react/gatsby-themed-site/Target
 
-            - uses: actions/setup-node@v4.0.2
+            - uses: actions/setup-node@v4.0.3
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -126,7 +126,7 @@ jobs:
                   name: .-node-react-next.js-Node-${{ matrix.node-version }}-Target
                   path: ./node/react/next.js/Target
 
-            - uses: actions/setup-node@v4.0.2
+            - uses: actions/setup-node@v4.0.3
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -143,7 +143,7 @@ jobs:
                   name: .-node-svelte-svelte-app-Node-${{ matrix.node-version }}-Target
                   path: ./node/svelte/svelte-app/Target
 
-            - uses: actions/setup-node@v4.0.2
+            - uses: actions/setup-node@v4.0.3
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -160,7 +160,7 @@ jobs:
                   name: .-node-vanillajs-monolith-Node-${{ matrix.node-version }}-Target
                   path: ./node/vanillajs/monolith/Target
 
-            - uses: actions/setup-node@v4.0.2
+            - uses: actions/setup-node@v4.0.3
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -177,7 +177,7 @@ jobs:
                   name: .-node-vue-nuxt-app-Node-${{ matrix.node-version }}-Target
                   path: ./node/vue/nuxt-app/Target
 
-            - uses: actions/setup-node@v4.0.2
+            - uses: actions/setup-node@v4.0.3
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -194,7 +194,7 @@ jobs:
                   name: .-node-vue-quasar-app-Node-${{ matrix.node-version }}-Target
                   path: ./node/vue/quasar-app/Target
 
-            - uses: actions/setup-node@v4.0.2
+            - uses: actions/setup-node@v4.0.3
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -211,7 +211,7 @@ jobs:
                   name: .-node-vue-vue-cli-app-Node-${{ matrix.node-version }}-Target
                   path: ./node/vue/vue-cli-app/Target
 
-            - uses: actions/setup-node@v4.0.2
+            - uses: actions/setup-node@v4.0.3
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -220,7 +220,7 @@ jobs:
             - run: pnpm install
               working-directory: .
 
-            - uses: actions/setup-node@v4.0.2
+            - uses: actions/setup-node@v4.0.3
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -229,7 +229,7 @@ jobs:
             - run: pnpm install
               working-directory: ./transpiled/flutter
 
-            - uses: actions/setup-node@v4.0.2
+            - uses: actions/setup-node@v4.0.3
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
@@ -246,7 +246,7 @@ jobs:
                   name: .-transpiled-mint-tauri-starter-Node-${{ matrix.node-version }}-Target
                   path: ./transpiled/mint-tauri-starter/Target
 
-            - uses: actions/setup-node@v4.0.2
+            - uses: actions/setup-node@v4.0.3
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "pnpm"
