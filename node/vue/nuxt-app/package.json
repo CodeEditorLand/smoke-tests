@@ -11,7 +11,7 @@
 		"tauri:source": "node ../../../../tooling/cli.js/bin/tauri"
 	},
 	"dependencies": {
-		"nuxt": "3.12.3"
+		"nuxt": "3.12.4"
 	},
 	"devDependencies": {}
 }
