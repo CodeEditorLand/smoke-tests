@@ -1,9 +1,9 @@
 {
 	"dependencies": {},
 	"devDependencies": {
-		"bs-platform": "^7.1.1",
-		"moduleserve": "^0.9.0",
-		"tauri": "^0.4.5"
+		"bs-platform": "7.1.1",
+		"moduleserve": "0.9.0",
+		"tauri": "0.4.5"
 	},
 	"name": "reason-tauri-example",
 	"scripts": {
