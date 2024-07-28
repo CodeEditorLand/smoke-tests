@@ -1,7 +1,7 @@
 {
-	"name": "tauri-examples",
-	"description": "Examples of Tauri in use.",
 	"dependencies": {
 		"tauri": "link:../../tooling/cli.js"
-	}
+	},
+	"description": "Examples of Tauri in use.",
+	"name": "tauri-examples"
 }
