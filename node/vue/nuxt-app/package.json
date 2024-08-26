@@ -4,7 +4,7 @@
 	},
 	"description": "My good Nuxt.js project",
 	"devDependencies": {},
-	"name": "nuxt-app",
+	"name": "@smoke-tests/nuxt-app",
 	"scripts": {
 		"build": "nuxt build",
 		"dev": "nuxt",
