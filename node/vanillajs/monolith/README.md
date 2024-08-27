@@ -2,7 +2,7 @@
 
 A Tauri app that uses Vanilla JavaScript with a monolith index.html.
 
-## Installation
+## 🚀 Installation
 
 ```
 $ yarn

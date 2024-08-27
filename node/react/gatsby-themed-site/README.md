@@ -3,7 +3,7 @@ This is a minimal config required gatsby site created using themes. The intentio
 
 This _does_ use an API key to Airtable, but we have made it optional. (Although currently gatsby is rather aggressive in compiling things out of node_modules so `gatsby-config.js` has a hack to rename files so gatsby will ignore them. [insert heavy sigh here])
 
-## Installation
+## 🚀 Installation
 
 ```
 $ yarn

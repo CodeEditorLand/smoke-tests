@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Quasar CLI](https://github.com/quasarframework/quasar/).
 
-## Installation
+## 🚀 Installation
 
 ```
 $ yarn
