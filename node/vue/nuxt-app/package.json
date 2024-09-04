@@ -1,6 +1,6 @@
 {
 	"dependencies": {
-		"nuxt": "3.13.0"
+		"nuxt": "3.13.1"
 	},
 	"description": "My good Nuxt.js project",
 	"devDependencies": {},
