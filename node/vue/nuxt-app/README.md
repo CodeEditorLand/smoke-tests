@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [create-nuxt-app](https://github.com/nuxt/create-nuxt-app/).
 
-## 🚀 Installation
+## Installation
 
 ```
 $ yarn

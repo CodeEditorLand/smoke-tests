@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Vue CLI](https://cli.vuejs.org/).
 
-## 🚀 Installation
+## Installation
 
 ```
 $ yarn

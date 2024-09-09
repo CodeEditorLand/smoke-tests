@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create Next App](https://github.com/vercel/create-next-app).
 
-## 🚀 Installation
+## Installation
 
 ```
 $ yarn

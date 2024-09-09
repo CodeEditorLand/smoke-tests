@@ -2,7 +2,7 @@
 
 This is the default Svelte template.
 
-## 🚀 Installation
+## Installation
 
 ```
 $ yarn
