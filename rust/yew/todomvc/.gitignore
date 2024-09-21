@@ -1,4 +1,3 @@
 node_modules/
-todomvc/target/
-todomvc/Cargo.lock
+todomvctodomvc/Cargo.lock
 yarn.lock
