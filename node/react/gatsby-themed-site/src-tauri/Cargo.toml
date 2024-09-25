@@ -1,10 +1,10 @@
-workspace = { }
+workspace = {}
 
 [package]
 name = "gatsby-themed-site-app"
 version = "0.1.0"
 description = "Gatsby themed site built by Tauri"
-author = [ "you" ]
+author = ["you"]
 license = ""
 repository = ""
 default-run = "gatsby-themed-site-app"
@@ -13,14 +13,14 @@ edition = "2018"
 [dependencies]
 serde_json = "1.0"
 serde = { version = "1.0", features = ["derive"] }
-tauri = { path = "../../../../../core/tauri", features =[]}
+tauri = { path = "../../../../../core/tauri", features = [] }
 
 [build-dependencies]
 tauri-build = { path = "../../../../../core/tauri-build" }
 
 [features]
-default = [ "custom-protocol" ]
-custom-protocol = [ "tauri/custom-protocol" ]
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]
 
 [[bin]]
 name = "gatsby-themed-site-app"
