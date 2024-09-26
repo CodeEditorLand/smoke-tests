@@ -1,6 +1,6 @@
 {
-	"name": "tauri-yew",
 	"main": "index.js",
+	"name": "tauri-yew",
 	"scripts": {
 		"tauri:build": "yarn tauri:source build",
 		"tauri:dev": "yarn tauri:source dev",
