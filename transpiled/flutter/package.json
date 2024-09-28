@@ -4,6 +4,14 @@
 	"main": "index.js",
 	"scripts": {},
 	"devDependencies": {
+<<<<<<< HEAD
 		"tauri": "^0.4.5"
 	}
+=======
+		"tauri": "0.15.0"
+	},
+	"main": "index.js",
+	"name": "flutter-example",
+	"scripts": {}
+>>>>>>> 222ccd0358974bcd3d95265906deb25aee307988
 }

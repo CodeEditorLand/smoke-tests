@@ -1,4 +1,13 @@
 {
+<<<<<<< HEAD
+=======
+	"dependencies": {},
+	"devDependencies": {
+		"bs-platform": "9.0.2",
+		"moduleserve": "0.9.1",
+		"tauri": "0.15.0"
+	},
+>>>>>>> 222ccd0358974bcd3d95265906deb25aee307988
 	"name": "reason-tauri-example",
 	"scripts": {
 		"build": "bsb -make-world",

@@ -1,4 +1,10 @@
 {
+<<<<<<< HEAD
+=======
+	"dependencies": {
+		"next": "14.2.13"
+	},
+>>>>>>> 222ccd0358974bcd3d95265906deb25aee307988
 	"name": "next.js",
 	"scripts": {
 		"build": "next build && next export",
