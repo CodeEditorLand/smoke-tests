@@ -5,7 +5,7 @@
 	"scripts": {},
 	"devDependencies": {
 <<<<<<< HEAD
-		"tauri": "^0.4.5"
+		"tauri": "0.4.5"
 	}
 =======
 		"tauri": "0.15.0"
