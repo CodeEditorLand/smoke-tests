@@ -1,15 +1,14 @@
 {
-  "license": "MIT",
-  "scripts": {
-    "dev": "run-p mint:dev tauri:dev",
-    "build": "run-s mint:build tauri:build",
-    "mint:dev": "mint start",
-    "mint:build": "mint build",
-    "tauri:dev": "tauri dev",
-    "tauri:build": "tauri build"
-  },
-  "devDependencies": {
-    "npm-run-all": "^4.1.5",
-    "tauri": "^0.4.5"
-  }
+	"devDependencies": {
+		"npm-run-all": "4.1.5",
+		"tauri": "0.15.0"
+	},
+	"scripts": {
+		"build": "run-s mint:build tauri:build",
+		"dev": "run-p mint:dev tauri:dev",
+		"mint:build": "mint build",
+		"mint:dev": "mint start",
+		"tauri:build": "tauri build",
+		"tauri:dev": "tauri dev"
+	}
 }
