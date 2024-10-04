@@ -1,3 +1,3 @@
 setInterval(() => {
-  console.log(Math.random())
-}, 500)
+	console.log(Math.random());
+}, 500);
