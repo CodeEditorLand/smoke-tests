@@ -1,6 +1,7 @@
 # Quasar App
 
-This project was bootstrapped with [Quasar CLI](https://github.com/quasarframework/quasar/).
+This project was bootstrapped with
+[Quasar CLI](https://github.com/quasarframework/quasar/).
 
 ## Installation
 

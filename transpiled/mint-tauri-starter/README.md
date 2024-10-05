@@ -2,8 +2,8 @@
 
 ## Requirements
 
-- [Tauri Requirements](https://github.com/tauri-apps/tauri/wiki/01.-Introduction#setting-up-your-environment)
-- [Mint](https://www.mint-lang.com/install)
+-   [Tauri Requirements](https://github.com/tauri-apps/tauri/wiki/01.-Introduction#setting-up-your-environment)
+-   [Mint](https://www.mint-lang.com/install)
 
 ## Running
 

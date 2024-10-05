@@ -1,6 +1,7 @@
 # Nuxt App
 
-This project was bootstrapped with [create-nuxt-app](https://github.com/nuxt/create-nuxt-app/).
+This project was bootstrapped with
+[create-nuxt-app](https://github.com/nuxt/create-nuxt-app/).
 
 ## Installation
 
