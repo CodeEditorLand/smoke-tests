@@ -1,9 +1,9 @@
 module.exports = {
-	webpack: {
-		configure: (config) => {
-			config.output.publicPath = "";
+    webpack: {
+        configure: (config) => {
+            config.output.publicPath = ''
 
-			return config;
-		},
-	},
-};
+            return config
+        }
+    }
+}
