@@ -1,23 +1,44 @@
 [tasks.install]
-script = ["cargo install --locked trunk --force", "yarn install"]
+script = [
+  "cargo install --locked trunk --force",
+  "yarn install"
+]
 
 [tasks.build-todomvc]
-script = ["cd todomvc", "cargo web deploy"]
+script = [ 
+  "cd todomvc",
+  "cargo web deploy"
+]
 
 [tasks.clean-todomvc]
-script = ["cd todomvc", "cargo clean"]
+script = [ 
+  "cd todomvc",
+  "cargo clean"
+]
 
 [tasks.build-tauri]
-script = ["yarn tauri build"]
+script = [
+  "yarn tauri build"
+]
 
 [tasks.clean-tauri]
-script = ["cd src-tauri", "cargo clean"]
+script = [
+  "cd src-tauri",
+  "cargo clean"
+]
 
 [tasks.deploy]
-dependencies = ["install", "build-todomvc", "build-tauri"]
+dependencies = [
+  "install",
+  "build-todomvc",
+  "build-tauri",
+]
 
 [tasks.reset]
-dependencies = ["clean-todomvc", "clean-tauri"]
+dependencies = [
+  "clean-todomvc",
+  "clean-tauri",
+]
 
 [tasks.run]
 command = "src-tauri/target/release/app"
