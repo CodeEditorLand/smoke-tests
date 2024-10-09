@@ -1,13 +1,13 @@
 {
-    "name": "flutter-example",
-    "version": "1.0.0",
-    "description": "A flutter example for Tauri",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "private": true,
-    "devDependencies": {
-        "tauri": "^0.15.0"
-    }
+	"name": "flutter-example",
+	"version": "1.0.0",
+	"private": true,
+	"description": "A flutter example for Tauri",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"tauri": "^0.15.0"
+	}
 }
