@@ -1,8 +1,6 @@
 {
-	"name": "tauri-yew",
-	"version": "0.1.0",
-	"license": "MIT",
 	"main": "index.js",
+	"name": "tauri-yew",
 	"scripts": {
 		"tauri:build": "yarn tauri:source build",
 		"tauri:dev": "yarn tauri:source dev",

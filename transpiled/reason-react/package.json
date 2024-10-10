@@ -1,13 +1,11 @@
 {
+	"dependencies": {},
+	"devDependencies": {
+		"bs-platform": "^9.0.2",
+		"moduleserve": "^0.9.1",
+		"tauri": "^0.15.0"
+	},
 	"name": "reason-tauri-example",
-	"version": "0.1.0",
-	"keywords": [
-		"BuckleScript",
-		"ReasonReact",
-		"reason-react"
-	],
-	"license": "MIT",
-	"author": "",
 	"scripts": {
 		"build": "bsb -make-world",
 		"bundle": "webpack --config webpack.config.js",
@@ -17,18 +15,5 @@
 		"tauri:build": "yarn tauri:source build",
 		"tauri:dev": "yarn tauri:source dev",
 		"tauri:source": "node ../../../../tooling/cli.js/bin/tauri"
-	},
-	"dependencies": {
-		"react": "^18.3.1",
-		"react-dom": "^18.3.1",
-		"reason-react": ">=0.11.0"
-	},
-	"devDependencies": {
-		"bs-platform": "^9.0.2",
-		"html-webpack-plugin": "^5.6.0",
-		"moduleserve": "^0.9.1",
-		"tauri": "^0.15.0",
-		"webpack": "^5.95.0",
-		"webpack-cli": "^5.1.4"
 	}
 }

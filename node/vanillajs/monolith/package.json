@@ -1,19 +1,15 @@
 {
-	"name": "monolith",
-	"version": "1.0.0",
+	"dependencies": {
+		"tauri": "link:../../../../tooling/cli.js"
+	},
 	"description": "",
-	"license": "MIT",
-	"author": "",
 	"main": "index.js",
+	"name": "monolith",
 	"scripts": {
 		"build": "echo \"No build is necessary for Vanillajs, skipping.\"",
 		"html:dev": "quasar serve ./dist",
 		"tauri:build": "yarn tauri:source build",
 		"tauri:dev": "yarn tauri:source dev",
-		"tauri:source": "node ../../../../tooling/cli.js/bin/tauri",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"dependencies": {
-		"tauri": "link:../../../../tooling/cli.js"
+		"tauri:source": "node ../../../../tooling/cli.js/bin/tauri"
 	}
 }
