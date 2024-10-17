@@ -1,12 +1,4 @@
 {
-	"name": "create-react-app",
-	"scripts": {
-		"build": "craco build",
-		"start": "craco start",
-		"tauri:build": "yarn tauri:source build",
-		"tauri:dev": "yarn tauri:source dev",
-		"tauri:source": "node ../../../../tooling/cli.js/bin/tauri"
-	},
 	"browserslist": {
 		"development": [
 			"last 1 chrome version",
@@ -22,5 +14,13 @@
 	"dependencies": {},
 	"devDependencies": {
 		"@craco/craco": "7.1.0"
+	},
+	"name": "create-react-app",
+	"scripts": {
+		"build": "craco build",
+		"start": "craco start",
+		"tauri:build": "yarn tauri:source build",
+		"tauri:dev": "yarn tauri:source dev",
+		"tauri:source": "node ../../../../tooling/cli.js/bin/tauri"
 	}
 }
