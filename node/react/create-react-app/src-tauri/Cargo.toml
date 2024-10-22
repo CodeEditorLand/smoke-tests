@@ -1,10 +1,10 @@
-workspace = {}
+workspace = { }
 
 [package]
 name = "app"
 version = "0.1.0"
 description = "A Tauri App"
-author = ["you"]
+author = [ "you" ]
 license = ""
 repository = ""
 default-run = "app"
@@ -19,8 +19,8 @@ tauri = { path = "../../../../../core/tauri", features = [] }
 tauri-build = { path = "../../../../../core/tauri-build" }
 
 [features]
-default = ["custom-protocol"]
-custom-protocol = ["tauri/custom-protocol"]
+default = [ "custom-protocol" ]
+custom-protocol = [ "tauri/custom-protocol" ]
 
 [[bin]]
 name = "app"
