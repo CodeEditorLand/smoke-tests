@@ -1,7 +1,7 @@
 {
 	"description": "A flutter example for Tauri",
 	"devDependencies": {
-		"tauri": "^0.15.0"
+		"tauri": "0.15.0"
 	},
 	"main": "index.js",
 	"name": "flutter-example",
