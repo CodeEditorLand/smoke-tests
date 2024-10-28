@@ -11,7 +11,7 @@
 	"description": "A Quasar Framework app",
 	"devDependencies": {
 		"@quasar/app": "3.3.3",
-		"execa": "9.4.1",
+		"execa": "9.5.0",
 		"pkg": "5.8.1"
 	},
 	"name": "quasar-app",
