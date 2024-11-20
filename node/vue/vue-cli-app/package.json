@@ -1,4 +1,11 @@
 {
+	"name": "vue-cli-app",
+	"scripts": {
+		"build": "vue-cli-service build",
+		"serve": "vue-cli-service serve",
+		"tauri:build": "vue-cli-service tauri:build",
+		"tauri:dev": "vue-cli-service tauri:serve"
+	},
 	"browserslist": [
 		"> 1%",
 		"last 2 versions"
@@ -6,12 +13,5 @@
 	"dependencies": {
 		"core-js": "3.39.0"
 	},
-	"devDependencies": {},
-	"name": "vue-cli-app",
-	"scripts": {
-		"build": "vue-cli-service build",
-		"serve": "vue-cli-service serve",
-		"tauri:build": "vue-cli-service tauri:build",
-		"tauri:dev": "vue-cli-service tauri:serve"
-	}
+	"devDependencies": {}
 }
