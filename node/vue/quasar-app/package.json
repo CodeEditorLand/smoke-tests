@@ -3,7 +3,7 @@
 		"last 1 version, not dead, ie >= 11"
 	],
 	"dependencies": {
-		"@quasar/extras": "1.16.13",
+		"@quasar/extras": "1.16.14",
 		"@tauri-apps/api": "2.1.1",
 		"core-js": "3.39.0",
 		"quasar": "2.17.4"
