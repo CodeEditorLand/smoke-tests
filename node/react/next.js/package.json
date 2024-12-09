@@ -2,6 +2,7 @@
 	"dependencies": {
 		"next": "15.0.4"
 	},
+	"devDependencies": {},
 	"name": "next.js",
 	"scripts": {
 		"build": "next build && next export",

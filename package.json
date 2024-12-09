@@ -3,5 +3,6 @@
 		"tauri": "link:../../tooling/cli.js"
 	},
 	"description": "Examples of Tauri in use.",
+	"devDependencies": {},
 	"name": "tauri-examples"
 }

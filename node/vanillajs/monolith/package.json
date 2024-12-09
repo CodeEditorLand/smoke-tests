@@ -3,6 +3,7 @@
 		"tauri": "link:../../../../tooling/cli.js"
 	},
 	"description": "",
+	"devDependencies": {},
 	"main": "index.js",
 	"name": "monolith",
 	"scripts": {

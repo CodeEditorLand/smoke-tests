@@ -1,4 +1,5 @@
 {
+	"dependencies": {},
 	"description": "A flutter example for Tauri",
 	"devDependencies": {
 		"tauri": "0.15.0"

@@ -1,4 +1,6 @@
 {
+	"dependencies": {},
+	"devDependencies": {},
 	"main": "index.js",
 	"name": "tauri-yew",
 	"scripts": {
