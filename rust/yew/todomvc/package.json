@@ -1,11 +1,11 @@
 {
-	"dependencies": {},
-	"devDependencies": {},
+	"name": "@codeeditorland/yew",
 	"main": "index.js",
-	"name": "tauri-yew",
 	"scripts": {
 		"tauri:build": "yarn tauri:source build",
 		"tauri:dev": "yarn tauri:source dev",
 		"tauri:source": "node ../../../../tooling/cli.js/bin/tauri"
-	}
+	},
+	"dependencies": {},
+	"devDependencies": {}
 }

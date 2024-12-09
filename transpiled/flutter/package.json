@@ -1,10 +1,10 @@
 {
-	"dependencies": {},
+	"name": "flutter-example",
 	"description": "A flutter example for Tauri",
+	"main": "index.js",
+	"scripts": {},
+	"dependencies": {},
 	"devDependencies": {
 		"tauri": "0.15.0"
-	},
-	"main": "index.js",
-	"name": "flutter-example",
-	"scripts": {}
+	}
 }
