@@ -1,18 +1,15 @@
 {
-  "name": "next.js",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build && next export",
-    "start": "next start",
-    "tauri:source": "node ../../../../tooling/cli.js/bin/tauri",
-    "tauri:dev": "yarn tauri:source dev",
-    "tauri:build": "yarn tauri:source build"
-  },
-  "dependencies": {
-    "next": "15.1.3",
-    "react": "19.0.0",
-    "react-dom": "19.0.0"
-  }
+	"name": "next.js",
+	"scripts": {
+		"build": "next build && next export",
+		"dev": "next dev",
+		"start": "next start",
+		"tauri:build": "yarn tauri:source build",
+		"tauri:dev": "yarn tauri:source dev",
+		"tauri:source": "node ../../../../tooling/cli.js/bin/tauri"
+	},
+	"dependencies": {
+		"next": "15.1.3"
+	},
+	"devDependencies": {}
 }
