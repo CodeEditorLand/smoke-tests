@@ -9,7 +9,7 @@
 		"tauri:source": "node ../../../../tooling/cli.js/bin/tauri"
 	},
 	"dependencies": {
-		"next": "15.1.3"
+		"next": "15.1.4"
 	},
 	"devDependencies": {}
 }
