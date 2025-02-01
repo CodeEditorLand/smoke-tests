@@ -1,8 +1,1 @@
-{
-	"name": "@codeeditorland/examples",
-	"description": "Examples of Tauri in use.",
-	"dependencies": {
-		"tauri": "link:../../tooling/cli.js"
-	},
-	"devDependencies": {}
-}
+
